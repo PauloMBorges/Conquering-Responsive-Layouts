@@ -5,5 +5,48 @@
 
 body {
     margin: 0;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Hero section styling */
+
+.hero-section {
+    background-color: #23424A;
+    padding: 7rem 0;
+    color: #FFF;
+}
+
+.hero-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text p {
+    margin-bottom: 3em;
+}
+
+.btn {
+    background-color: #38CFD9;
+    color: #072A2D;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* padding: 1rem 3rem; */
+    padding: 0.75em 2.25em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+btn:focus {
+    opacity: .75;
+}
