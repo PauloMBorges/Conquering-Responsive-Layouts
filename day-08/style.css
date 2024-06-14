@@ -40,16 +40,24 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
     display: flex;
-
-    /* can't use yet */
-    /* gap: 100px; */
+    gap: 30px;
 }
 
-.col {
-    /* these are now flex items */
-    width: 100%;
+.two-col {
+    text-align: center;
+    background-color: #136C72;
+    color: #FFF;
+    padding: 3em 0;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+.three-col {
+    padding: 3em 0;
+    text-align: center;
 }
 
 .hero {
