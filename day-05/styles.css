@@ -1,3 +1,8 @@
-p {
-    color: red;
+/* CSS Reset */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
