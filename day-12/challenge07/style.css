@@ -19,6 +19,11 @@ body {
     flex-direction: column;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* First section */
 .first-section {
     background-color: #F3EED9;
@@ -68,4 +73,33 @@ body {
     font-size: 21px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+/* third section */
+.third-section {
+    background-color: #222C2A;
+    padding: 6em 0;
+    margin-top: 7em;
+}
+
+.white {
+    color: #F3EED9;
+}
+
+.align {
+    text-align: left;
+}
+
+.left{
+    padding-right: 5em;
+}
+
+/* fourth section */
+.fourth-section {
+    background-color: #824936;
+    padding: 6em 0;
+}
+
+.right {
+    padding-left: 5em;
 }
