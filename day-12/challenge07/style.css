@@ -12,7 +12,6 @@ body {
 .container {
     max-width: 1128px;
     margin: 0 auto;
-    /*width: 85%;*/
 }
 
 .column {
@@ -39,7 +38,34 @@ body {
 .subtitle {
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 10px;
     margin-bottom: 1em;
+}
+
+/* second section */
+
+.second-section {
+    margin: 4rem 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #824936;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+.second-paragraphs {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.section-paragraph {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5;
 }
