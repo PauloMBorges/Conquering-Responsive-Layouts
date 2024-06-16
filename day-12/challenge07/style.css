@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* General Styling */
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+    /*width: 85%;*/
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* First section */
+.first-section {
+    background-color: #F3EED9;
+    min-height: 660px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    color: #824936;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-bottom: 1em;
+}
