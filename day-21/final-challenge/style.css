@@ -168,3 +168,26 @@ body {
   border-radius: 100px;
 }
 
+/* quality */
+.qualities {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 3em 3em 0 3em;
+}
+
+.quality h2 {
+  font-size: 30px;
+  color: #a59678;
+  margin-bottom: .5em;
+}
+
+.quality p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.quality {
+  padding-bottom: 2em;
+}
