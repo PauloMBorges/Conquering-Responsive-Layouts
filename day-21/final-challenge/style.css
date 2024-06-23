@@ -11,6 +11,14 @@ body {
     font-weight: bold;
 }
 
+/* general styling */
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
 /* header */
 
 .logo {
@@ -18,5 +26,41 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color: #2E323F;
+    font-size: 18px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    opacity: .65;
+}
+
+.nav-link-button {
+    background-color: #A59678;
+    padding: .25em .75em;
+    border-radius: 100px;
+}
+
+.nav-item {
+    margin-top: 0.75em;
+}
+
+.nav-list-primary {
+    margin-bottom: 2em;
 }
