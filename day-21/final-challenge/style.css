@@ -19,6 +19,10 @@ body {
     position: relative;
 }
 
+.beige {
+    color: #A59678;
+}
+
 /* header */
 
 .logo {

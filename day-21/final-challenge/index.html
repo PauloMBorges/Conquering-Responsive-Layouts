@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Layout</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <script src="main.js"></script>
-    
-    
+
     <header class="header">
-        <div class="container">
-            <button class="nav-toggle" aria-label="open navigation">
-                <span class="hamburger"></span>
-            </button>
-            <a href="#" class="logo">
-                <img src="img/logo.svg" alt="Conquering Responsive Layouts">
-            </a>
-            <nav class="nav">
-                <ul class="nav-list nav-list-primary">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                </ul>
-                <ul class="nav-list nav-list-secondary">
-                    <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link nav-link-button">Sign up</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="Conquering Responsive Layouts" />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list nav-list-primary">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+          <ul class="nav-list nav-list-secondary">
+            <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-link-button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-
-</body>
+    <main>
+      <div class="container">
+        <h1 class="big-text">
+          Responsive layouts
+          <span class="beige">don't have to be a struggle</span>
+        </h1>
+        <div class="main-right">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn">I want to learn</a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
