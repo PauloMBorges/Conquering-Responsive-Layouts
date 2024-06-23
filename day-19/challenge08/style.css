@@ -124,6 +124,7 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
+    font-size: 1.25rem;
 }
 
 .nav--visible {
@@ -132,6 +133,37 @@ header {
     position: relative;
 } 
 
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-top: 0.5em;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav__link:hover,
+.nav-link:focus {
+    opacity: .65;
+}
+
+.nav__list--primary {
+    margin-bottom: 2em;
+}
+
+.nav__link--button {
+    padding: .25em .75em;
+    background: white;
+    color: #23424A;
+    border-radius: 100px;
+}
 
 .logo {
     height: 30px;
@@ -179,6 +211,18 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .nav__list {
+        display: flex;
+        margin: 0;
+    }
+
+    .nav__item {
+        margin: 0;
+        margin-right: 1.5em;
     }
 
     .row {
@@ -207,3 +251,4 @@ header {
     
     
 }
+
