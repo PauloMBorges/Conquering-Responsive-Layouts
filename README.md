@@ -5,4 +5,4 @@
   <em>Final project screenshot - desktop version</em>
 </p>
 
-This project is part of the 21-day challenge course by Kevin Powell: [Conquering Responsive Layouts(https://courses.kevinpowell.co/conquering-responsive-layouts)]
+This project is part of the 21-day challenge course by Kevin Powell: [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts)
