@@ -275,6 +275,10 @@ img {
   margin-bottom: .75em;
 }
 
+.footer-left h2 {
+  font-size: 32px;
+}
+
 .footer-right p,
 .footer-left p {
   font-family: 'Montserrat';
@@ -284,16 +288,69 @@ img {
   line-height: 1.5;
 }
 
+.footer-left p {
+  font-size: 18px;
+}
+
 .footer-right p {
   margin-bottom: 1em;
 }
 
 .footer-left {
   padding-top: 3em;
+  margin: 0 auto;
+  margin-top: 3em;
+  max-width: 400px;
 }
 
 .footer-right {
   display: flex;
   gap: 2em;
   padding: 2em 0;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+
+/* media queries */
+@media (min-width: 768px) {
+  .big-text {
+    line-height: 1.25;
+  }
+
+  .qualities {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .quality-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+  }
+
+  .side-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3em;
+  }
+
+  .side-card:first-child {
+    margin-top: 0;
+  }
+
+  .footer-left {
+    max-width: 469.58px;
+  }
+
+  .footer-right {
+    gap: 4em;
+  }
+
+
+}
+
+@media (min-width: 1000px) {
+
 }
