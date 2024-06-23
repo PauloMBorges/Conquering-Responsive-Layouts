@@ -257,5 +257,43 @@ img {
 /* footer */
 
 .footer {
-  background-color: #6f737f;
+  background-color: #3b4050;
+}
+
+.footer-title {
+  font-size: 64px;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.footer-right h2,
+.footer-left h2 {
+  color: #a59678;
+  font-size: 21px;
+  margin-bottom: .75em;
+}
+
+.footer-right p,
+.footer-left p {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-right p {
+  margin-bottom: 1em;
+}
+
+.footer-left {
+  padding-top: 3em;
+}
+
+.footer-right {
+  display: flex;
+  gap: 2em;
+  padding: 2em 0;
 }
